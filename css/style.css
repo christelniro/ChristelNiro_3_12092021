@@ -103,14 +103,45 @@ border-color: transparent;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: space-between;
-    background-color: white;
+    background: white;
     border-radius: 0 0 20px 20px;
     width: 102%;
     height: 74px;
     margin-top: 0px;
     padding: 0px;
 }
-.iconcoeur{
+.textrestaurant2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: white;
+    border-radius: 0 0 20px 20px;
+    width: 102%;
+    margin-top: 0px;
+    padding: 0px;
+}
+.textrestaurant1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 0 0 20px 20px;
+    width: 102%;
+    margin-top: 0px;
+    padding: 0px;
+}
+.com{
+    font-weight:lighter;
+}
+p{
     display: flex;
 }
+.iconcoeur{ font-size: 33px;
+margin-left: 20px;}
+
+
+
+
+
+
 }
