@@ -1,103 +1,116 @@
-/*mbile*/    
-@media screen and ( max-width:600px ) { 
-
-/*header*/
-.header{
+/*mbile*/
+@media screen and (max-width: 768px) {
+  /*header*/
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  .header {
     display: flex;
     align-items: center;
     flex-direction: column;
-}
-.logos{
+  }
+  .logos {
     margin: 0px;
     padding: 0px;
     width: 58%;
     height: 1.9rem;
-}
-#search{
+    font-family: "Shrikhand", cursive;
+  }
+  #search {
     width: 100%;
-    
-}
-.blocrecherhce{
-  display: flex;  
-
-}
-.rechercher{
     background: lightgray;
+  }
+  .blocrecherhce {
+    display: flex;
+  }
+  .rechercher {
+    background: lightgray;
+    border: 1px lightgray inset;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 41px;
-}
-.titre1{
+  }
+  .titre1 {
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     background: #eaeaea;
-}
+  }
 
-.blocr{
-border: none;
-background: #eaeaea;
- }
-h1{
-    font-family: 'Shrikhand', cursive; 
-    font-family: 'Shrikhand', cursive;
-}
-h2{font-family: 'Roboto', sans-serif;
-margin: 0px;}
-.btn{
+  .blocr {
+    border: none;
+    background: #eaeaea;
+  }
+  h1 {
+    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand", cursive;
+  }
+  h2 {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+  }
+  .btn {
     display: inline-block;
     margin: 0 auto;
-    background-color: #ff79da;
+    background: linear-gradient(#ff79da, #9356dc);
     border-radius: 15px 15px 15px 15px;
+    border-top: 1px solid #aeaeae inset;
     padding: 1rem;
     border: 1px solid;
     color: white;
-}
-/* restaurent bloc*/
-.boxresto{
-    display: flex; 
+  }
+  /* restaurent bloc*/
+  .boxresto {
+    display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-wrap: wrap;
     align-items: baseline;
-
-}
-.restaurantbloc{
+  }
+  .restaurantbloc {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
     width: 85%;
     justify-content: center;
-}
-.restaurantphotos{
+  }
+  .restaurantphotos {
     background-size: cover;
     background-position: center;
-width: 100%;
-height: 198px;
-border-radius: 20px 20px 0 0 ;
-object-fit: cover;
-border-style: solid;
-border-color: transparent;
+    width: 100%;
+    height: 198px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+    border-style: solid;
+    border-color: transparent;
+  }
+  .restaurantphotos1 {
+    background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+  }
+  .restaurantphotos2 {
+    background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+  }
+  .restaurantphotos3 {
+    background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+  }
+  .restaurantphotos4 {
+    background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+  }
 
-}
-.restaurantphotos1{background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);}
-.restaurantphotos2{background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);}
-.restaurantphotos3{background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);}
-.restaurantphotos4{background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);}
-
-.restaurant{
+  .restaurant {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     align-content: space-between;
-    background-color:lightgrey;
-}
-.restaurantbloc a {
+    background-color: lightgrey;
+  }
+  .restaurantbloc a {
     text-decoration: none;
-}
-.textrestaurant{
+  }
+  .textrestaurant {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -109,8 +122,8 @@ border-color: transparent;
     height: 74px;
     margin-top: 0px;
     padding: 0px;
-}
-.textrestaurant2{
+  }
+  .textrestaurant2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -119,8 +132,8 @@ border-color: transparent;
     width: 102%;
     margin-top: 0px;
     padding: 0px;
-}
-.textrestaurant1{
+  }
+  .textrestaurant1 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -129,19 +142,40 @@ border-color: transparent;
     width: 102%;
     margin-top: 0px;
     padding: 0px;
-}
-.com{
-    font-weight:lighter;
-}
-p{
+  }
+  .com {
+    font-weight: lighter;
+  }
+  p {
     display: flex;
-}
-.iconcoeur{ font-size: 33px;
-margin-left: 20px;}
-
-
-
-
-
-
+  }
+  .iconcoeur {
+    font-size: 33px;
+    margin-left: 20px;
+  }
+  /* footer*/
+  .footeraccueil {
+    display: flex;
+    flex-direction: column;
+    background: rgb(51, 51, 51);
+    width: 100%;
+  }
+  .footertitre {
+    padding: 22px 0px 24px 28px;
+    color: white;
+    width: 57%;
+    font-family: "Shrikhand", cursive;
+  }
+  .lienfooter {
+    color: white;
+    padding: 0 11px 0 28px;
+  }
+  .lienf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_menu {
+    margin: 0px;
+  }
 }
