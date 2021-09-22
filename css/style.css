@@ -161,7 +161,7 @@
     width: 100%;
   }
   .footertitre {
-    padding: 22px 0px 24px 28px;
+    padding: 22px 0px 4px 27px;
     color: white;
     width: 57%;
     font-family: "Shrikhand", cursive;
@@ -169,6 +169,13 @@
   .lienfooter {
     color: white;
     padding: 0 11px 0 28px;
+  }
+  .lienmail {
+    padding: 0 0 11px 0;
+  }
+  .icon {
+    padding: 0 12px 0 0;
+    font-size: small;
   }
   .lienf {
     display: flex;
