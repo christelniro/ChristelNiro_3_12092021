@@ -12,22 +12,21 @@
   }
   .logos {
     margin: 0px;
-    padding: 0px;
-    width: 58%;
-    height: 1.9rem;
+    padding: 10px 0px 10px 0px;
+
+    font-size: 30px;
     font-family: "Shrikhand", cursive;
   }
   #search {
     width: 100%;
-    background: lightgray;
+    background: #f3f3f3;
   }
   .blocrecherhce {
     display: flex;
   }
   .rechercher {
-    background: lightgray;
-    border: 1px lightgray inset;
-    flex: 1;
+    background: #f3f3f3;
+    box-shadow: 2px 2px 5px 2px #aeaeae;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,9 +37,11 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: #eaeaea;
+    background: #fafafa;
   }
-
+  .titre {
+    padding: 15px 38px;
+  }
   .blocr {
     border: none;
     background: #eaeaea;
@@ -57,12 +58,75 @@
     display: inline-block;
     margin: 0 auto;
     background: linear-gradient(#ff79da, #9356dc);
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 24px 24px 24px 24px;
     border-top: 1px solid #aeaeae inset;
     padding: 1rem;
     border: 1px solid;
+    width: 207px;
     color: white;
+    margin-top: 23px;
   }
+  /* bloc Fontionnement */
+  .fontionnement {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+  .numerofonction {
+    display: flex;
+    position: absolute;
+    left: 20px;
+    color: white;
+    padding: 5px 0px 0 5px;
+    background: #9356dc;
+    background: #9356dc;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    justify-content: center;
+  }
+  .iconfonction {
+    border-radius: 17px;
+    padding: 4px 0px 0 44px;
+    display: flex;
+    border: transparent;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
+  }
+  .titref {
+    padding: 56px 0 31px 0;
+    position: relative;
+    left: -29px;
+  }
+  .fonctionmenu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    background: #f6f6f6;
+    border-radius: 16px;
+  }
+  .blocfonctionnement {
+    display: flex;
+    flex-direction: column;
+    width: 84%;
+    padding-bottom: 56px;
+  }
+
+  .icon2 {
+    position: absolute;
+    left: 37px;
+    color: grey;
+    font-size: 19px;
+    padding: 0 18px 0 18px;
+  }
+  .texticon {
+    text-decoration: none;
+    padding: 0 3px 0 26px;
+    color: black;
+  }
+
   /* restaurent bloc*/
   .boxresto {
     display: flex;
@@ -105,7 +169,7 @@
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    background-color: lightgrey;
+    background-color: #f3f3f3;
   }
   .restaurantbloc a {
     text-decoration: none;
