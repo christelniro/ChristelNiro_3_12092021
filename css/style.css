@@ -131,26 +131,26 @@
   .boxresto {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+
     flex-wrap: wrap;
     align-items: baseline;
   }
   .restaurantbloc {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
     width: 85%;
-    justify-content: center;
+    padding: 24px 24px 24px 24px;
   }
   .restaurantphotos {
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 198px;
+    height: 176px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
     border-style: solid;
     border-color: transparent;
+  }
+  .fonctionmenu a {
+    text-decoration: none;
   }
   .restaurantphotos1 {
     background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
@@ -176,16 +176,16 @@
   }
   .textrestaurant {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: stretch;
-    justify-content: space-between;
+    /* flex-wrap: wrap; */
     background: white;
     border-radius: 0 0 20px 20px;
     width: 102%;
     height: 74px;
-    margin-top: 0px;
-    padding: 0px;
+    color: black;
+    font-size: 12px;
+    /* margin-top: 0px; */
+    /* padding: 0px; */
+    flex-direction: column;
   }
   .textrestaurant2 {
     display: flex;
@@ -214,8 +214,27 @@
     display: flex;
   }
   .iconcoeur {
+    position: absolute;
+    left: 315px;
     font-size: 33px;
-    margin-left: 20px;
+  }
+  .nouveaurestaurant {
+    position: relative;
+    left: 222px;
+    top: -236px;
+    font-size: 13px;
+    /* top: 110px; */
+    width: 14%;
+    border-radius: 8px;
+    background-color: #99e2d0;
+    color: green;
+    border: 1px solid;
+    padding: 0px 30px 0px 22px;
+  }
+  .iconcoeur2 {
+    position: absolute;
+    left: 315px;
+    font-size: 33px;
   }
   /* footer*/
   .footeraccueil {
