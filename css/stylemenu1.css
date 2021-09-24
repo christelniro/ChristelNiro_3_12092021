@@ -1,10 +1,21 @@
 @media screen and (max-width: 768px) {
   /*header*/
+  .lapalettedugout {
+    border-radius: 50px;
+    position: relative;
+    background: #f3f3f3;
+    margin-top: -55px;
+    padding: 0 10px 0 14px;
+  }
+
   .logos {
     margin: 0px;
     padding: 0px 0px 0px 94px;
     font-size: 30px;
     font-family: "Shrikhand", cursive;
+  }
+  .font {
+    font-weight: lighter;
   }
   .imageheader {
     max-width: 100%;
@@ -51,7 +62,7 @@
   }
   .sommeplat {
     position: absolute;
-    left: 292px;
+    left: 315px;
   }
   .plat3 {
     border-radius: 17px;
@@ -72,6 +83,7 @@
     align-items: center;
   }
   h3 {
+    font-size: 23px;
     font-family: "Shrikhand", cursive;
     font-family: "Shrikhand", cursive;
   }

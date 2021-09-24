@@ -1,5 +1,12 @@
 @media screen and (max-width: 768px) {
   /*header*/
+  .alafrancaise {
+    border-radius: 50px;
+    position: relative;
+    background: #f3f3f3;
+    margin-top: -55px;
+    padding: 0 10px 0 14px;
+  }
   .logos {
     margin: 0px;
     padding: 0px 0px 0px 94px;
