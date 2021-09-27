@@ -347,7 +347,7 @@
   .numerofonction {
     display: flex;
     position: absolute;
-    left: 20px;
+    left: 55px;
     color: white;
     padding: 5px 0px 0 5px;
     background: #9356dc;
@@ -387,14 +387,14 @@
 
   .icon2 {
     position: absolute;
-    left: 37px;
+    left: 77px;
     color: grey;
     font-size: 19px;
     padding: 0 18px 0 18px;
   }
   .texticon {
     text-decoration: none;
-    padding: 0 3px 0 26px;
+    padding: 0px 54px 0px 54px;
     color: black;
   }
 
