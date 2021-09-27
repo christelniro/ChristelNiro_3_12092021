@@ -57,8 +57,11 @@
     align-items: center;
   }
   .sommeplat {
-    position: absolute;
-    left: 292px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    bottom: 21px;
+    position: relative;
   }
   .plat3 {
     border-radius: 17px;
@@ -67,7 +70,7 @@
     display: flex;
     border: transparent;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: normal;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
     justify-content: center;
   }
@@ -175,10 +178,7 @@
     justify-content: space-around;
     align-items: center;
   }
-  .sommeplat {
-    position: absolute;
-    left: 501px;
-  }
+
   .plat3 {
     border-radius: 17px;
     margin-bottom: 26px;
@@ -186,7 +186,6 @@
     display: flex;
     border: transparent;
     flex-direction: column;
-    align-items: center;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
     justify-content: center;
   }
@@ -268,7 +267,7 @@
   }
   .btn {
     display: inline-block;
-    margin: 0px 69px 69px;
+    margin: 0px 69px 69px 510px;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
     border-top: 1px solid #aeaeae inset;
@@ -280,7 +279,7 @@
   }
   /* bloc menu*/
   .blocmenu {
-    display: flex;
+    display: flow-root;
     flex-direction: row;
     justify-content: space-between;
   }
@@ -295,70 +294,68 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    font-size: 36px;
   }
   .sommeplat {
-    font-weight: 700;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-left: 0.5rem;
+    position: absolute;
+    left: 903px;
   }
   .plat3 {
-    padding: 0px 0px 14px 10px;
+    padding: 18px 30px 18px 30px;
     border-radius: 17px;
     margin-bottom: 26px;
-    margin-right: 28px;
-    padding: 0 0 22;
-    padding: 17px 68px 11px -6px;
+
+    margin-left: 91px;
     display: flex;
-    width: 86%;
+    width: 76%;
     border: transparent;
     flex-direction: column;
     align-items: baseline;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
     justify-content: center;
   }
-}
-.titreplat {
-  margin: 0px;
-}
-.boxplat {
-  align-items: center;
-}
-h3 {
-  font-family: "Shrikhand", cursive;
-  font-family: "Shrikhand", cursive;
-}
 
-/* footer*/
-.footeraccueil {
-  display: flex;
-  flex-direction: column;
-  background: rgb(51, 51, 51);
-  width: 100%;
-}
-.footertitre {
-  padding: 22px 0px 4px 27px;
-  color: white;
-  width: 57%;
-  font-family: "Shrikhand", cursive;
-}
-.lienfooter {
-  color: white;
-  padding: 0 11px 0 28px;
-}
-.lienmail {
-  padding: 0 0 11px 0;
-}
-.icon {
-  padding: 0 12px 0 0;
-  font-size: small;
-}
-.lienf {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.footer_menu {
-  margin: 0px;
+  .titreplat {
+    margin: 0px;
+  }
+  .boxplat {
+    align-items: center;
+  }
+  h3 {
+    font-family: "Shrikhand", cursive;
+    font-family: "Shrikhand", cursive;
+  }
+
+  /* footer*/
+  .footeraccueil {
+    display: flex;
+    flex-direction: column;
+    background: rgb(51, 51, 51);
+    width: 100%;
+  }
+  .footertitre {
+    padding: 22px 0px 4px 27px;
+    color: white;
+    width: 57%;
+    font-family: "Shrikhand", cursive;
+  }
+  .lienfooter {
+    color: white;
+    padding: 0 11px 0 28px;
+  }
+  .lienmail {
+    padding: 0 0 11px 0;
+  }
+  .icon {
+    padding: 0 12px 0 0;
+    font-size: small;
+  }
+  .lienf {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .footer_menu {
+    margin: 0px;
+  }
 }
