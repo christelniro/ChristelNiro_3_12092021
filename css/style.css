@@ -486,15 +486,13 @@
   }
   .iconcoeur {
     position: absolute;
-    left: 315px;
+    left: 681px;
     font-size: 33px;
   }
   .nouveaurestaurant {
     position: relative;
-    left: 222px;
-    top: -236px;
+    left: 452px;
     font-size: 13px;
-    /* top: 110px; */
     width: 14%;
     border-radius: 8px;
     background-color: #99e2d0;
@@ -504,7 +502,7 @@
   }
   .iconcoeur2 {
     position: absolute;
-    left: 315px;
+    left: 681px;
     font-size: 33px;
   }
   /* footer*/
