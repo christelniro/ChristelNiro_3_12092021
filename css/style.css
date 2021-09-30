@@ -1,5 +1,66 @@
 /*mbile*/
 @media screen and (max-width: 768px) {
+  /* chargement*/
+
+  /* création du loader*/
+  .loader {
+    border: 10px solid #ff79da;
+    border-top: 10px solid #99e2d0;
+    border-left: 10px solid #9356dc;
+    border-bottom: 10px solid #99e2d0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 4s linear forwards;
+  }
+  /* placement au milieu de la page */
+  .loader {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  /* mise en place de la rotation*/
+  .parentloader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsla(310, 72%, 65%, 0.9);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: spin 3s forwards;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
   /*header*/
   body {
     margin: 0px;
@@ -272,6 +333,67 @@
 }
 /*tablette*/
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* chargement*/
+
+  /* création du loader*/
+  .loader {
+    border: 10px solid #ff79da;
+    border-top: 10px solid #99e2d0;
+    border-left: 10px solid #9356dc;
+    border-bottom: 10px solid #99e2d0;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 4s linear forwards;
+  }
+  /* placement au milieu de la page */
+  .loader {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  /* mise en place de la rotation*/
+  .parentloader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-color: hsla(310, 72%, 65%, 0.9);
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-animation: spin 3s forwards;
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
   /*header*/
   body {
     margin: 0px;
@@ -546,7 +668,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    -webkit-animation: spin 3s linear forwards;
+    -webkit-animation: spin 4s linear forwards;
   }
   /* placement au milieu de la page */
   .loader {
@@ -564,15 +686,12 @@
     width: 100%;
     left: 0;
     top: 0;
-    background-color: hsla(0, 0%, 100%, 0.9);
-    animation: loader 0.03s;
-    animation-delay: 0.03s;
-    animation-fill-mode: both;
-    z-index: 10000;
+    background-color: hsla(310, 72%, 65%, 0.9);
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-animation: spin 3s linear forwards;
+    -webkit-animation: spin 3s forwards;
   }
   @-webkit-keyframes spin {
     0% {
@@ -596,7 +715,6 @@
       -webkit-transform: rotate(0deg);
       visibility: hidden;
       opacity: 0;
-      -webkit-animation-fill-mode: forwards;
     }
   }
 
