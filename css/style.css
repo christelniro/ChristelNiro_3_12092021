@@ -546,7 +546,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    -webkit-animation: spin 3s infinite ease-in-out;
+    -webkit-animation: spin 3s linear forwards;
   }
   /* placement au milieu de la page */
   .loader {
@@ -572,21 +572,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-animation: spin 3s linear forwards;
   }
   @-webkit-keyframes spin {
-    from {
+    0% {
       -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
     }
-    to {
+    100% {
       -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
     }
   }
   @-webkit-keyframes spin {
-    from {
-      -webkit-transform: rotate(0deg);
-    }
-    to {
+    0% {
       -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+      -webkit-animation-fill-mode: forwards;
     }
   }
 
