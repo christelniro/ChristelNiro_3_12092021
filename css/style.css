@@ -128,6 +128,10 @@
     color: white;
     margin-top: 23px;
   }
+  .btn:hover {
+    color: #ff79da;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
   /* bloc Fontionnement */
   .fontionnement {
     display: flex;
@@ -460,6 +464,10 @@
     color: white;
     margin-top: 23px;
   }
+  .btn:hover {
+    color: #ff79da;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
   /* bloc Fontionnement */
   .fontionnement {
     display: flex;
@@ -781,8 +789,13 @@
     padding: 1rem;
     border: 1px solid;
     width: 207px;
+    cursor: pointer;
     color: white;
     margin-top: 23px;
+  }
+  .btn:hover {
+    color: #ff79da;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
   /* bloc Fontionnement */
   .fontionnement {

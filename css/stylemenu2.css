@@ -39,6 +39,10 @@
     color: white;
     margin-top: 23px;
   }
+  .btn:hover {
+    color: #ff79da;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
   /* bloc menu*/
 
   .menu {
@@ -162,6 +166,10 @@
     margin-top: 28px;
     margin: 44px 0px 44px 230px;
   }
+  .btn:hover {
+    color: #ff79da;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
   /* bloc menu*/
 
   .menu {
@@ -169,6 +177,7 @@
     position: relative;
     padding-bottom: 0.5rem;
     font-weight: 400;
+    text-decoration: 5px underline #99e2d0;
   }
   .lapalettedugout {
     background: #f3f3f3;
@@ -248,7 +257,7 @@
   }
   .logos {
     margin: 0px;
-    padding: 0px 488px 0px 503px;
+    padding: 0px 488px 0px 531px;
     font-size: 30px;
     font-family: "Shrikhand", cursive;
   }
@@ -278,6 +287,10 @@
     color: white;
     margin-top: 23px;
   }
+  .btn:hover {
+    color: #ff79da;
+    box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
   /* bloc menu*/
   .blocmenu {
     display: flow-root;
@@ -286,6 +299,7 @@
   }
   .menu {
     margin: 31px 38px 31px 38px;
+    text-decoration: 5px underline #99e2d0;
   }
   .lapalettedugout {
     background: #f3f3f3;
