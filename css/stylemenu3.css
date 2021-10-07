@@ -74,6 +74,7 @@
     margin-bottom: 26px;
     padding: 1rem;
     display: flex;
+    background: white;
     border: transparent;
     flex-direction: column;
     align-items: normal;
@@ -236,6 +237,7 @@
   .plat3 {
     border-radius: 17px;
     margin-bottom: 26px;
+    background: white;
     padding: 34px 23px 34px 0;
     display: flex;
     border: transparent;
@@ -365,7 +367,7 @@
     padding: 18px 30px 18px 30px;
     border-radius: 17px;
     margin-bottom: 26px;
-
+    background: white;
     margin-left: 91px;
     display: flex;
     width: 76%;
