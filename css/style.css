@@ -122,6 +122,7 @@
   h2 {
     font-family: "Roboto", sans-serif;
     margin: 0px;
+    color: #000000;
   }
   .btn {
     display: inline-block;
@@ -256,9 +257,10 @@
   .textrestaurant {
     display: flex;
     background: white;
+    padding: 25px 0px 5px 10px;
     border-radius: 0 0 20px 20px;
-    width: 102%;
-    height: 74px;
+    width: 98%;
+    height: 48px;
     color: black;
     font-size: 12px;
     flex-direction: column;
@@ -295,24 +297,15 @@
     left: 315px;
     font-size: 33px;
   }
-  /*remplissage de l'icon coeur*/
-  .iconcoeur {
-    cursor: pointer;
-    position: relative;
-  }
-  .heart2 {
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: -1;
-    stroke: none;
+  .sstitre {
+    color: #000000;
   }
 
   .nouveaurestaurant {
     font-family: "Roboto", sans-serif;
     position: relative;
-    left: 222px;
-    top: -195px;
+    left: 234px;
+    top: -244px;
     font-size: 13px;
     width: 14%;
     border-radius: 5px;
@@ -325,6 +318,50 @@
     position: absolute;
     left: 315px;
     font-size: 33px;
+  }
+  /*remplissage de l'icon coeur*/
+  .fa-heart {
+    cursor: pointer;
+  }
+
+  .fa-heart__content {
+    /* coeur de la page principale */
+    font-size: 28px;
+  }
+
+  .fa-heart-restaurant__content {
+    /* coeur de la page restaurant (ajustement superposition) */
+    font-size: 28px;
+  }
+
+  .fa-heart__content_empty {
+    color: #000000;
+    position: relative;
+    right: 42px;
+  }
+
+  .fa-heart__box {
+    position: relative;
+    left: 294px;
+    top: -43px;
+  }
+
+  .fa-heart__box:hover > .fa-heart_full {
+    opacity: 1;
+    transform: scale(1);
+    /* permet de superposer le coeur */
+    z-index: 2;
+  }
+
+  .fa-heart_full {
+    background: linear-gradient(63deg, #ff79da 0%, #9356dc 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 1000ms;
+    transform: scale(0);
+    position: relative;
+    left: -7px;
   }
   /* footer*/
   .footeraccueil {
@@ -357,6 +394,9 @@
   }
   .footer_menu {
     margin: 0px;
+  }
+  .lienmail a p {
+    text-decoration: none;
   }
 }
 /*tablette*/
