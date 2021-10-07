@@ -21,8 +21,9 @@
   }
   .flecheheader {
     position: relative;
-    top: 19px;
+    top: 9px;
     left: 10px;
+    color: black;
   }
   .header {
     display: flex;
@@ -148,8 +149,9 @@
   }
   .flecheheader {
     position: relative;
-    top: 19px;
+    top: 9px;
     left: 10px;
+    color: black;
   }
   .header {
     display: flex;
@@ -276,8 +278,9 @@
   }
   .flecheheader {
     position: relative;
-    top: 19px;
+    top: 9px;
     left: 10px;
+    color: black;
   }
   .header {
     display: flex;
