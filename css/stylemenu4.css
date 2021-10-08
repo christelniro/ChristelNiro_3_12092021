@@ -1,7 +1,7 @@
 @media screen and (max-width: 767px) {
   /*header*/
   .ledelicedessens {
-    border-radius: 50px;
+    border-radius: 8px;
     position: relative;
     background: #f3f3f3;
     margin-top: -55px;
@@ -44,6 +44,31 @@
   .btn:hover {
     color: #ff79da;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
+  /* transition */
+  .plat3 {
+    -webkit-animation: translation_opacite 2s linear both;
+    animation: transition 2s linear both;
+  }
+  @-webkit-keyframes transition {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes transition {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
   /* bloc menu*/
 
@@ -215,6 +240,31 @@
     color: #ff79da;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
+  /* transition */
+  .plat3 {
+    -webkit-animation: translation_opacite 2s linear both;
+    animation: transition 2s linear both;
+  }
+  @-webkit-keyframes transition {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes transition {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
   /* bloc menu*/
 
   .menu {
@@ -343,6 +393,31 @@
   .btn:hover {
     color: #ff79da;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
+  }
+  /* transition */
+  .plat3 {
+    -webkit-animation: translation_opacite 2s linear both;
+    animation: transition 2s linear both;
+  }
+  @-webkit-keyframes transition {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes transition {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
   }
   /* bloc menu*/
   .blocmenu {
