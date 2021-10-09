@@ -66,7 +66,7 @@
       opacity: 1;
     }
   }
-  @keyframes transition {
+  @-webkit-keyframes transition {
     0% {
       transform: translateY(100%);
       opacity: 0;
