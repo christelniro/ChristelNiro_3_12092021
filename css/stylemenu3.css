@@ -204,7 +204,7 @@
   }
   .logos {
     margin: 0px;
-    padding: 0px 488px 0px 503px;
+    padding: 0px 281px 0px 286px;
     font-size: 30px;
     font-family: "Shrikhand", cursive;
   }
@@ -237,7 +237,7 @@
     margin: 44px 0px 44px 230px;
   }
   .btn:hover {
-    color: #ff79da;
+    color: #e2d3de;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
   /* transition */
@@ -288,7 +288,7 @@
     border-radius: 17px;
     margin-bottom: 26px;
     background: white;
-    padding: 34px 23px 34px 0;
+    padding: 15px 8px 15px 8px;
     display: flex;
     border: transparent;
     flex-direction: column;

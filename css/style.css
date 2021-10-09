@@ -29,38 +29,59 @@
     width: 100%;
     left: 0;
     top: 0;
-    background-color: hsla(309, 49%, 92%, 0.9);
+    background-color: white;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-animation: spin 3s forwards;
+    -webkit-animation: opacite 3s forwards;
   }
-  @-webkit-keyframes spin {
+
+  @-webkit-keyframes opacite {
     0% {
-      -webkit-transform: rotate(0deg);
       visibility: hidden;
       opacity: 0;
     }
     100% {
-      -webkit-transform: rotate(360deg);
       visibility: visible;
       opacity: 1;
     }
   }
-  @-webkit-keyframes spin {
+  @-webkit-keyframes opacite {
     0% {
-      -webkit-transform: rotate(360deg);
       visibility: visible;
       opacity: 1;
     }
     100% {
-      -webkit-transform: rotate(0deg);
       visibility: hidden;
       opacity: 0;
     }
   }
 
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
   /*header*/
   body {
     margin: 0px;
@@ -103,7 +124,7 @@
     background: #fafafa;
   }
   .titre1 {
-    padding: 15px 38px;
+    padding: 15px 67px;
   }
   .titre2 {
     font-family: "Roboto", sans-serif;
@@ -430,13 +451,35 @@
     width: 100%;
     left: 0;
     top: 0;
-    background-color: hsla(310, 55%, 87%, 0.9);
+    background-color: white;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-animation: spin 3s forwards;
+    -webkit-animation: opacite 3s forwards;
   }
+
+  @-webkit-keyframes opacite {
+    0% {
+      visibility: hidden;
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes opacite {
+    0% {
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
+
   @-webkit-keyframes spin {
     0% {
       -webkit-transform: rotate(0deg);
@@ -503,6 +546,7 @@
     flex-direction: column;
     text-align: center;
     background: #fafafa;
+    padding: 15px 110px;
   }
   .titre {
     padding: 15px 38px;
@@ -822,38 +866,59 @@
     width: 100%;
     left: 0;
     top: 0;
-    background-color: hsla(312, 22%, 86%, 0.9);
+    background-color: white;
     z-index: 1;
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-animation: spin 3s forwards;
+    -webkit-animation: opacite 3s forwards;
   }
-  @-webkit-keyframes spin {
+
+  @-webkit-keyframes opacite {
     0% {
-      -webkit-transform: rotate(0deg);
       visibility: hidden;
       opacity: 0;
     }
     100% {
-      -webkit-transform: rotate(360deg);
       visibility: visible;
       opacity: 1;
     }
   }
-  @-webkit-keyframes spin {
+  @-webkit-keyframes opacite {
     0% {
-      -webkit-transform: rotate(360deg);
       visibility: visible;
       opacity: 1;
     }
     100% {
-      -webkit-transform: rotate(0deg);
       visibility: hidden;
       opacity: 0;
     }
   }
 
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  @-webkit-keyframes spin {
+    0% {
+      -webkit-transform: rotate(360deg);
+      visibility: visible;
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: rotate(0deg);
+      visibility: hidden;
+      opacity: 0;
+    }
+  }
   /*header*/
   body {
     margin: 0px;
@@ -1008,7 +1073,7 @@
   .restaurantphotos {
     background-size: cover;
     background-position: center;
-    width: 101%;
+    width: 113%;
     height: 176px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -1052,7 +1117,7 @@
     font-size: 13px;
     background: white;
     border-radius: 0 0 20px 20px;
-    width: 97%;
+    width: 113%;
     height: 60px;
     color: black;
     align-content: stretch;
