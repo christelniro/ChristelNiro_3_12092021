@@ -83,7 +83,6 @@
     position: relative;
     padding-bottom: 0.5rem;
     font-weight: 400;
-    text-decoration: 5px underline #99e2d0;
   }
 
   .lapalettedugout {
@@ -256,8 +255,17 @@
     position: relative;
     padding-bottom: 0.5rem;
     font-weight: 400;
-    text-decoration: 5px underline #99e2d0;
   }
+  .menu::after {
+    content: "";
+    width: 3rem;
+    height: 0.25rem;
+    background-color: #99e2d0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
   .lapalettedugout {
     background: #f3f3f3;
   }
@@ -316,6 +324,55 @@
       transform: translateY(0);
       opacity: 1;
     }
+  }
+  /*transition prix*/
+  .blocmenu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  .plat3:hover > .carte__validation {
+    visibility: visible;
+    transition: all 5s ease-in;
+    transform: translateX(-100%);
+    z-index: 2;
+  }
+  .plat3:hover > .validation .carte__validation--icone > {
+  }
+  .carte__validation {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+  .validation {
+    display: flex;
+    color: white;
+    background-color: #99e2d0;
+    height: 100%;
+    width: 20%;
+    transform-origin: right;
+    position: relative;
+    top: 0px;
+    left: 100%;
+    transform: right;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .carte__validation--icone {
+  }
+
+  /*texte se retrate*/
+  .plat3 {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  .fa-check-circle:before {
+    content: "\f058";
   }
   /* footer*/
   .footeraccueil {
@@ -511,9 +568,9 @@
     -webkit-background-clip: text;
     opacity: 0;
     transition: all 1000ms;
-    transform: scale(0);
+    transform: scale(3);
     position: relative;
-    left: -7px;
+    left: 472px;
   }
   /* footer*/
   .footeraccueil {
