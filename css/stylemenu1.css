@@ -502,15 +502,18 @@
     align-content: stretch;
   }
   .plat3:hover > .carte__validation {
-    transition: all 0.5s ease-out;
-    transform: translateX(-20%);
-    z-index: 2;
-
+    transition: all 0.5s ease-in;
+    transform: translateX(-90%);
     margin-right: -2rem;
   }
-  .plat3:hover > .validation .carte__validation--icone > {
+  .plat3:hover > .sommeplat {
+    width: 75%;
+    overflow: hidden;
   }
   .carte__validation {
+    position: relative;
+    left: 595px;
+    top: -50px;
   }
   .validation {
     display: flex;
@@ -558,8 +561,15 @@
     font-size: 36px;
   }
   .sommeplat {
-    position: absolute;
-    left: 845px;
+    display: flex;
+    position: relative;
+    left: 222px;
+    top: -19px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
   }
   .plat3 {
     padding: 18px 30px 18px 30px;
