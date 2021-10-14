@@ -509,10 +509,14 @@
     overflow: hidden;
   }
   .plat3:hover .fa-check-circle {
+    transform: rotate(0deg);
+  }
+  .fa-check-circle {
     transform: rotate(180deg);
+    transition-duration: 0.5s;
   }
   .validation {
-    transition: width 2s, transform 2s;
+    transition: width 1s, transform 2s;
     width: 0px;
     display: flex;
     color: white;
@@ -522,7 +526,9 @@
     top: 0;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     overflow: hidden;
     flex-direction: row;
     align-content: center;
