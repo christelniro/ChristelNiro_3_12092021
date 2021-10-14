@@ -487,6 +487,10 @@
     }
   }
   /*transition prix*/
+  .groupetitre {
+    width: 100%;
+    padding: 18px 30px 18px 30px;
+  }
   .titreplat,
   .plat3 {
     text-overflow: ellipsis;
@@ -497,44 +501,33 @@
 
   .blocmenu {
   }
-  .plat3:hover > .carte__validation {
-    transition: all 0.5s ease-in;
-    transform: translateX(-90%);
-    margin-right: -2rem;
+  .plat3:hover > .validation {
+    width: 200px;
   }
   .plat3:hover > .sommeplat {
     width: 75%;
     overflow: hidden;
   }
-  .carte__validation {
-    position: relative;
-
-    top: -29px;
-    margin: -1rem -5rem -1rem 1rem;
+  .plat3:hover .fa-check-circle {
+    transform: rotate(180deg);
   }
   .validation {
+    transition: width 2s, transform 2s;
+    width: 0px;
     display: flex;
     color: white;
     margin: 0px;
     background: #99e2d0;
-    height: 100%;
-    width: 12%;
-    transform-origin: right;
     position: relative;
     top: 0;
-    border-radius: 0 1.5rem 1.5rem 0;
+    border-radius: 0 17px 17px 0;
     font-size: 20px;
-    /* visibility: hidden; */
-    left: 103%;
-    -webkit-box-pack: center;
+
     overflow: hidden;
-    transform-origin: right;
     flex-direction: row;
     align-content: center;
   }
-  .carte__validation--icone {
-    transform: rotate(0deg);
-  }
+
   /* bloc menu*/
   .blocmenu {
     display: flow-root;
@@ -563,17 +556,14 @@
     justify-content: flex-end;
   }
   .plat3 {
-    padding: 18px 30px 18px 30px;
     border-radius: 17px;
     margin-bottom: 26px;
+    flex-flow: row nowrap;
     background-color: white;
-    margin-left: 91px;
     display: flex;
-    width: 76%;
     border: transparent;
     overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
-    flex-direction: column;
   }
 
   .titreplat {
