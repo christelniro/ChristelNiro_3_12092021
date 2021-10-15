@@ -50,7 +50,51 @@
     color: white;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
+  /*transition prix*/
+  .groupetitre {
+    width: 100%;
+    padding: 18px 30px 18px 30px;
+  }
+  .titreplat,
+  .plat3 {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
 
+  .plat3:hover > .validation {
+    width: 200px;
+  }
+  .plat3:hover > .sommeplat {
+    width: 75%;
+    overflow: hidden;
+  }
+  .plat3:hover .fa-check-circle {
+    transform: rotate(0deg);
+  }
+  .fa-check-circle {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+  .validation {
+    transition: width 1s, transform 2s;
+    width: 0px;
+    display: flex;
+    color: white;
+    margin: 0px;
+    background: #99e2d0;
+    position: relative;
+    top: 0;
+    border-radius: 0 17px 17px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    align-content: center;
+  }
   /* transition */
   .plat3 {
     -webkit-animation: translation_opacite 2s linear both;
@@ -104,14 +148,12 @@
   .plat3 {
     border-radius: 17px;
     margin-bottom: 26px;
-    background: white;
-    padding: 1rem;
+    flex-flow: row nowrap;
+    background-color: white;
     display: flex;
     border: transparent;
-    flex-direction: column;
-    align-items: normal;
+    overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
-    justify-content: center;
   }
   .titreplat {
     margin: 0px;
@@ -279,13 +321,12 @@
   .plat3 {
     border-radius: 17px;
     margin-bottom: 26px;
-    padding: 15px 8px 15px 8px;
+    flex-flow: row nowrap;
+    background-color: white;
     display: flex;
     border: transparent;
-    flex-direction: column;
-    background: white;
+    overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
-    justify-content: center;
   }
   .titreplat {
     margin: 0px;
@@ -327,57 +368,49 @@
     }
   }
   /*transition prix*/
-  .blocmenu {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: stretch;
+  .groupetitre {
+    width: 100%;
+    padding: 18px 30px 18px 30px;
   }
-  .plat3:hover > .carte__validation {
-    visibility: visible;
-    transition: all 5s ease-in;
-    transform: translateX(-100%);
-    z-index: 2;
-    margin-right: -1rem;
-  }
-  .plat3:hover > .validation .carte__validation--icone > {
-  }
-  .carte__validation {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: flex-end;
-  }
-  .validation {
-    display: flex;
-    color: white;
-    background-color: #99e2d0;
-    height: 100%;
-    width: 20%;
-    transform-origin: right;
-    position: relative;
-    top: 0px;
-    border-radius: 0 1.5rem 1.5rem 0;
-    font-size: 20px;
-    left: 100%;
-    transform: right;
-    align-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .carte__validation--icone {
-    transform: rotate(0deg);
-  }
-
-  /*texte se retrate*/
+  .titreplat,
   .plat3 {
+    text-overflow: ellipsis;
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
   }
-  .fa-check-circle:before {
-    content: "\f058";
+
+  .plat3:hover > .validation {
+    width: 200px;
+  }
+  .plat3:hover > .sommeplat {
+    width: 75%;
+    overflow: hidden;
+  }
+  .plat3:hover .fa-check-circle {
+    transform: rotate(0deg);
+  }
+  .fa-check-circle {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+  .validation {
+    transition: width 1s, transform 2s;
+    width: 0px;
+    display: flex;
+    color: white;
+    margin: 0px;
+    background: #99e2d0;
+    position: relative;
+    top: 0;
+    border-radius: 0 17px 17px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    align-content: center;
   }
   /* footer*/
   .footeraccueil {
@@ -414,7 +447,7 @@
 }
 @media screen and (min-width: 1024px) {
   /*header*/
-  .lapalettedugout {
+  .bloc3 {
     border-radius: 50px;
     position: relative;
     background: #f3f3f3;
@@ -499,8 +532,6 @@
     overflow: hidden;
   }
 
-  .blocmenu {
-  }
   .plat3:hover > .validation {
     width: 200px;
   }
@@ -544,9 +575,7 @@
     margin: 31px 38px 31px 38px;
     text-decoration: 5px underline #99e2d0;
   }
-  .lapalettedugout {
-    background: #f3f3f3;
-  }
+
   .titrebloc {
     display: flex;
     flex-direction: row;
@@ -620,9 +649,9 @@
     -webkit-background-clip: text;
     opacity: 0;
     transition: all 1000ms;
-    transform: scale(3);
+    transform: scale(0);
     position: relative;
-    left: 472px;
+    left: -7px;
   }
   /* footer*/
   .footeraccueil {
