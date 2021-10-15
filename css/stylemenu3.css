@@ -44,6 +44,52 @@
     color: #ff79da;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
+  /*transition prix*/
+  .groupetitre {
+    width: 100%;
+    padding: 18px 30px 18px 30px;
+  }
+
+  .plat3:hover > .titreplat {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .titreplat {
+    text-overflow: ellipsis;
+  }
+  .plat3:hover > .validation {
+    width: 200px;
+  }
+  .plat3:hover > .sommeplat {
+    width: 75%;
+    overflow: hidden;
+  }
+  .plat3:hover .fa-check-circle {
+    transform: rotate(0deg);
+  }
+  .fa-check-circle {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+  .validation {
+    transition: width 1s, transform 2s;
+    width: 0px;
+    display: flex;
+    color: white;
+    margin: 0px;
+    background: #99e2d0;
+    position: relative;
+    top: 0;
+    border-radius: 0 17px 17px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    align-content: center;
+  }
   /* transition */
   .plat3 {
     -webkit-animation: translation_opacite 2s linear both;
@@ -97,14 +143,12 @@
   .plat3 {
     border-radius: 17px;
     margin-bottom: 26px;
-    padding: 1rem;
+    flex-flow: row nowrap;
+    background-color: white;
     display: flex;
-    background: white;
     border: transparent;
-    flex-direction: column;
-    align-items: normal;
+    overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
-    justify-content: center;
   }
   .titreplat {
     margin: 0px;
@@ -240,6 +284,52 @@
     color: #e2d3de;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
+  /*transition prix*/
+  .groupetitre {
+    width: 100%;
+    padding: 18px 30px 18px 30px;
+  }
+
+  .plat3:hover > .titreplat {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .titreplat {
+    text-overflow: ellipsis;
+  }
+  .plat3:hover > .validation {
+    width: 200px;
+  }
+  .plat3:hover > .sommeplat {
+    width: 75%;
+    overflow: hidden;
+  }
+  .plat3:hover .fa-check-circle {
+    transform: rotate(0deg);
+  }
+  .fa-check-circle {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+  .validation {
+    transition: width 1s, transform 2s;
+    width: 0px;
+    display: flex;
+    color: white;
+    margin: 0px;
+    background: #99e2d0;
+    position: relative;
+    top: 0;
+    border-radius: 0 17px 17px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    align-content: center;
+  }
   /* transition */
   .plat3 {
     -webkit-animation: translation_opacite 2s linear both;
@@ -287,13 +377,12 @@
   .plat3 {
     border-radius: 17px;
     margin-bottom: 26px;
-    background: white;
-    padding: 15px 8px 15px 8px;
+    flex-flow: row nowrap;
+    background-color: white;
     display: flex;
     border: transparent;
-    flex-direction: column;
+    overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
-    justify-content: center;
   }
   .titreplat {
     margin: 0px;
@@ -388,6 +477,52 @@
     color: #ff79da;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
+  /*transition prix*/
+  .groupetitre {
+    width: 100%;
+    padding: 18px 30px 18px 30px;
+  }
+
+  .plat3:hover > .titreplat {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .titreplat {
+    text-overflow: ellipsis;
+  }
+  .plat3:hover > .validation {
+    width: 200px;
+  }
+  .plat3:hover > .sommeplat {
+    width: 75%;
+    overflow: hidden;
+  }
+  .plat3:hover .fa-check-circle {
+    transform: rotate(0deg);
+  }
+  .fa-check-circle {
+    transform: rotate(180deg);
+    transition-duration: 0.5s;
+  }
+  .validation {
+    transition: width 1s, transform 2s;
+    width: 0px;
+    display: flex;
+    color: white;
+    margin: 0px;
+    background: #99e2d0;
+    position: relative;
+    top: 0;
+    border-radius: 0 17px 17px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: row;
+    align-content: center;
+  }
   /* transition */
   .plat3 {
     -webkit-animation: translation_opacite 2s linear both;
@@ -439,18 +574,14 @@
     left: 903px;
   }
   .plat3 {
-    padding: 18px 30px 18px 30px;
     border-radius: 17px;
     margin-bottom: 26px;
-    background: white;
-    margin-left: 91px;
+    flex-flow: row nowrap;
+    background-color: white;
     display: flex;
-    width: 76%;
     border: transparent;
-    flex-direction: column;
-    align-items: baseline;
+    overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
-    justify-content: center;
   }
   .titreplat {
     margin: 0px;
