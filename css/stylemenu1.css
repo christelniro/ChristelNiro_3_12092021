@@ -55,14 +55,15 @@
     width: 100%;
     padding: 18px 30px 18px 30px;
   }
-  .titreplat,
-  .plat3 {
+
+  .plat3:hover > .titreplat {
     text-overflow: ellipsis;
     white-space: nowrap;
-    text-overflow: ellipsis;
     overflow: hidden;
   }
-
+  .titreplat {
+    text-overflow: ellipsis;
+  }
   .plat3:hover > .validation {
     width: 200px;
   }
@@ -287,7 +288,7 @@
     margin: 44px 0px 44px 230px;
   }
   .btn:hover {
-    color: #ff79da;
+    color: white;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
   /* bloc menu*/
@@ -308,9 +309,6 @@
     bottom: 0;
   }
 
-  .lapalettedugout {
-    background: #f3f3f3;
-  }
   .titrebloc {
     display: flex;
     flex-direction: row;
@@ -447,7 +445,7 @@
 }
 @media screen and (min-width: 1024px) {
   /*header*/
-  .bloc3 {
+  .lapalettedugout {
     border-radius: 50px;
     position: relative;
     background: #f3f3f3;
