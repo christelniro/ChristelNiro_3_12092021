@@ -88,7 +88,7 @@
     background: #99e2d0;
     position: relative;
     top: 0;
-    left: 118px;
+    left: 27%;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
     display: flex;
@@ -471,7 +471,7 @@
   }
   .btn {
     display: inline-block;
-    margin: 0px 69px 69px 510px;
+    margin: 0px 69px 69px 662px;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
     border-top: 1px solid #aeaeae inset;
@@ -482,7 +482,7 @@
     margin-top: 23px;
   }
   .btn:hover {
-    color: #ff79da;
+    color: white;
     box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 50%);
   }
   /*transition prix*/

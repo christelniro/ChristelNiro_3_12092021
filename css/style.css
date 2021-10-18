@@ -1032,6 +1032,12 @@
   .icon2:hover {
     color: #9356dc;
   }
+  .fonctionmenu:hover {
+    background-color: #e4d5f6;
+    color: #000;
+    border-radius: 17px;
+    box-shadow: 3px 3px 20px #c6bfbf;
+  }
   .titref {
     padding: 56px 0 31px 0;
     position: relative;
