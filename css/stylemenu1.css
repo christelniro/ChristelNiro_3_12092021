@@ -379,7 +379,7 @@
   }
 
   .plat3:hover > .validation {
-    width: 200px;
+    width: 101px;
   }
   .plat3:hover > .sommeplat {
     width: 75%;
@@ -392,6 +392,14 @@
     transform: rotate(180deg);
     transition-duration: 0.5s;
   }
+  .sommeplat {
+    display: flex;
+    left: 124px;
+    bottom: 17px;
+    position: relative;
+    /* align-content: stretch; */
+    justify-content: space-evenly;
+  }
   .validation {
     transition: width 1s, transform 2s;
     width: 0px;
@@ -401,6 +409,7 @@
     background: #99e2d0;
     position: relative;
     top: 0;
+    left: 198px;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
     display: flex;
