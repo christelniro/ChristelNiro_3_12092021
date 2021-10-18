@@ -52,20 +52,21 @@
   }
   /*transition prix*/
   .groupetitre {
-    width: 100%;
-    padding: 18px 30px 18px 30px;
+    width: 70%;
+    padding: 17px 15px 0px 15px;
   }
-
-  .plat3:hover > .titreplat {
+  .plat3:hover > .groupetitre {
+    max-width: 150px;
+  }
+  .titreplat {
+    margin: 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
   }
-  .titreplat {
-    text-overflow: ellipsis;
-  }
+
   .plat3:hover > .validation {
-    width: 200px;
+    width: 100px;
   }
   .plat3:hover > .sommeplat {
     width: 75%;
@@ -87,6 +88,7 @@
     background: #99e2d0;
     position: relative;
     top: 0;
+    left: 95px;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
     display: flex;
@@ -142,9 +144,10 @@
   .sommeplat {
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    bottom: 21px;
+    left: 75px;
+    bottom: 17px;
     position: relative;
+    align-content: stretch;
   }
   .plat3 {
     border-radius: 17px;
@@ -156,11 +159,8 @@
     overflow: hidden;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
   }
-  .titreplat {
-    margin: 0px;
-  }
+
   .boxplat {
-    width: 94%;
     align-items: center;
   }
   h3 {
