@@ -37,7 +37,7 @@
     margin: 0px 69px 69px;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
-    border-top: 1px solid #aeaeae inset;
+    border-top: 1px solid #aeaeae;
     padding: 1rem;
     border: 1px solid;
     width: 207px;
@@ -279,7 +279,7 @@
     /* margin: 0px 69px 69px; */
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
-    border-top: 1px solid #aeaeae inset;
+    border-top: 1px solid #aeaeae;
     padding: 1rem;
     border: 1px solid;
     width: 207px;
@@ -487,15 +487,13 @@
     margin: 0px 69px 69px 662px;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
-    border-top: 1px solid #aeaeae inset;
+    border-top: 1px solid #aeaeae;
     padding: 1rem;
     border: 1px solid;
     width: 207px;
     color: white;
     margin-top: 23px;
     cursor: pointer;
-    transition-duration: 25sec;
-    box-shadow: 25rem;
   }
   .btn:hover {
     color: white;

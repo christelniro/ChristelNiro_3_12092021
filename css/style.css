@@ -1,7 +1,5 @@
-/*mbile*/
 @media screen and (max-width: 768px) {
   /* chargement*/
-
   /* création du loader*/
   .loader {
     border: 10px solid #ff79da;
@@ -128,7 +126,6 @@
   }
   .titre2 {
     font-family: "Roboto", sans-serif;
-    padding: auto;
     font-weight: lighter;
   }
   .blocr {
@@ -150,7 +147,7 @@
     margin: 0 auto;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
-    border-top: 1px solid #aeaeae inset;
+    border-top: 1px solid #aeaeae;
     padding: 1rem;
     border: 1px solid;
     width: 207px;
@@ -404,6 +401,10 @@
   .lienmail {
     padding: 0 0 11px 0;
   }
+  .lienmail a {
+    text-decoration: none;
+    color: white;
+  }
   .icon {
     padding: 0 12px 0 0;
     font-size: small;
@@ -420,7 +421,7 @@
     text-decoration: none;
   }
 }
-/*tablette*/
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /* chargement*/
 
@@ -571,7 +572,7 @@
     margin: 0 auto;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
-    border-top: 1px solid #aeaeae inset;
+    border-top: 1px solid #aeaeae;
     padding: 1rem;
     border: 1px solid;
     width: 207px;
@@ -816,6 +817,10 @@
     width: 57%;
     font-family: "Shrikhand", cursive;
   }
+  .lienmail a {
+    text-decoration: none;
+    color: white;
+  }
   .lienfooter {
     color: white;
     padding: 0 11px 0 28px;
@@ -983,11 +988,12 @@
   h2 {
     font-family: "Roboto", sans-serif;
     margin: 0px;
+    color: black;
   }
   .btn {
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
-    border-top: 1px solid #aeaeae inset;
+    border-top: 1px solid #aeaeae;
     padding: 1rem;
     border: 1px solid;
     width: 207px;
@@ -1055,10 +1061,7 @@
     padding: 26px 26px 26px 26px;
     margin: 18px;
     font-size: 25px;
-
-    top: px;
     color: grey;
-
     padding: 0 18px 0 18px;
   }
   .texticon {
@@ -1180,8 +1183,9 @@
 
   .fa-heart__content_empty {
     color: #000000;
-    position: relative;
-    right: 42px;
+    position: absolute;
+    right: -42px;
+    bottom: 12px;
   }
 
   .fa-heart__box {
@@ -1203,16 +1207,17 @@
     opacity: 0;
     transition: all 1000ms;
     transform: scale(0);
-    position: relative;
-    left: -7px;
+    position: absolute;
+    left: 13px;
+    /* size: 1px; */
+    bottom: 12px;
   }
 
   .nouveaurestaurant {
     position: relative;
-    bottom: 185px;
+    bottom: 177px;
     padding: 5px 10px 5px 10px;
     font-size: 13px;
-    width: 19%;
     border-radius: 5px;
     background-color: #99e2d0;
     color: green;
@@ -1243,9 +1248,16 @@
   .lienmail {
     padding: 0 0 11px 0;
   }
+  .lienmail a {
+    text-decoration: none;
+    color: white;
+  }
   .icon {
     padding: 0 12px 0 0;
     font-size: small;
+  }
+  .sstitre {
+    color: black;
   }
   .lienf {
     display: flex;
