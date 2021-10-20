@@ -1,7 +1,7 @@
 @media screen and (max-width: 768px) {
   /*header*/
   .lanoteenchantee {
-    border-radius: 50px;
+    border-radius: 50px 50px 0 0;
     position: relative;
     background: #f3f3f3;
     margin-top: -84px;
@@ -34,7 +34,7 @@
   }
   .btn {
     display: inline-block;
-    margin: 0px 69px 69px;
+    margin: 0px 61px 69px 61px;
     background: linear-gradient(#ff79da, #9356dc);
     border-radius: 24px 24px 24px 24px;
     border-top: 1px solid #aeaeae;
@@ -66,7 +66,7 @@
   }
 
   .plat3:hover > .validation {
-    width: 100px;
+    width: 18%;
   }
   .plat3:hover > .sommeplat {
     width: 75%;
@@ -194,11 +194,13 @@
   .fa-heart__content_empty {
     color: #000000;
     position: relative;
-    right: 42px;
+    right: 56px;
+    font-size: 27px;
   }
 
   .fa-heart__box {
     position: relative;
+    left: 29px;
   }
 
   .fa-heart__box:hover > .fa-heart_full {
@@ -216,7 +218,7 @@
     transition: all 1000ms;
     transform: scale(0);
     position: relative;
-    left: -7px;
+    left: -21px;
   }
   /* footer*/
   .footeraccueil {
@@ -230,6 +232,10 @@
     color: white;
     width: 57%;
     font-family: "Shrikhand", cursive;
+  }
+  .lienmail a {
+    text-decoration: none;
+    color: white;
   }
   .lienfooter {
     color: white;
