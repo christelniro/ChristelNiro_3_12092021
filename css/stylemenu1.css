@@ -259,7 +259,7 @@
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /*header*/
   .lapalettedugout {
-    border-radius: 50px;
+    border-radius: 50px 50px 0 0;
     position: relative;
     background: #f3f3f3;
     margin-top: -55px;
@@ -379,19 +379,21 @@
   }
   /*transition prix*/
   .groupetitre {
-    width: 100%;
-    padding: 18px 30px 18px 30px;
+    width: 70%;
+    padding: 17px 15px 0px 15px;
   }
-  .titreplat,
-  .plat3 {
+  .plat3:hover > .groupetitre {
+    max-width: 150px;
+  }
+  .titreplat {
+    margin: 0px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    text-overflow: ellipsis;
     overflow: hidden;
   }
 
   .plat3:hover > .validation {
-    width: 101px;
+    width: 41%;
   }
   .plat3:hover > .sommeplat {
     width: 75%;
@@ -406,7 +408,7 @@
   }
   .sommeplat {
     display: flex;
-    left: 124px;
+    left: 168px;
     bottom: 17px;
     position: relative;
     /* align-content: stretch; */
@@ -421,7 +423,7 @@
     background: #99e2d0;
     position: relative;
     top: 0;
-    left: 198px;
+    left: 30%;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
     display: flex;
@@ -430,6 +432,48 @@
     overflow: hidden;
     flex-direction: row;
     align-content: center;
+  }
+  /*remplissage de l'icon coeur*/
+  .fa-heart {
+    cursor: pointer;
+  }
+
+  .fa-heart__content {
+    /* coeur de la page principale */
+    font-size: 28px;
+  }
+
+  .fa-heart-restaurant__content {
+    /* coeur de la page restaurant (ajustement superposition) */
+    font-size: 28px;
+  }
+
+  .fa-heart__content_empty {
+    color: #000000;
+    position: relative;
+    left: 6px;
+  }
+
+  .fa-heart__box {
+    position: relative;
+  }
+
+  .fa-heart__box:hover > .fa-heart_full {
+    opacity: 1;
+    transform: scale(1);
+    /* permet de superposer le coeur */
+    z-index: 2;
+  }
+
+  .fa-heart_full {
+    background: linear-gradient(63deg, #ff79da 0%, #9356dc 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 1000ms;
+    transform: scale(0);
+    position: relative;
+    left: 40px;
   }
   /* footer*/
   .footeraccueil {
@@ -459,6 +503,10 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+  .lienmail a {
+    text-decoration: none;
+    color: white;
   }
   .footer_menu {
     margin: 0px;
