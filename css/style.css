@@ -546,12 +546,12 @@
   #search {
     width: 100%;
     background: #f3f3f3;
-    font-size: 45px;
+    font-size: 36px;
   }
   .blocrecherhce {
     display: flex;
-    font-size: 42px;
-    margin-left: 202px;
+    font-size: 35px;
+    margin-left: 151px;
   }
   .rechercher {
     background: #f3f3f3;
@@ -566,12 +566,21 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: #fafafa;
+
+    padding: 15px 110px;
+  }
+  .titre2 {
     padding: 15px 110px;
   }
   .titre {
-    padding: 15px 38px;
     font-size: 25px;
+    display: flex;
+    background: #fafafa;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
   }
   .blocr {
     border: none;
@@ -613,23 +622,27 @@
   .numerofonction {
     display: flex;
     position: absolute;
-    left: 55px;
+    left: 48px;
     color: white;
-    padding: 5px 0px 0 5px;
+    padding: 5px;
     background: #9356dc;
     background: #9356dc;
     width: 20px;
     height: 20px;
     border-radius: 20px;
     justify-content: center;
+    font-size: 16px;
+    align-items: center;
+    align-content: center;
   }
   .iconfonction {
     border-radius: 17px;
-    padding: 4px 0px 0 44px;
+    padding: 23px 86px 23px 86px;
     display: flex;
     border: transparent;
     flex-direction: row;
     align-items: center;
+    margin-bottom: 15px;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
   }
   .icon2:hover {
@@ -639,6 +652,11 @@
     padding: 56px 0 31px 0;
     position: relative;
     left: -29px;
+  }
+  .grostitre {
+    padding: 56px 0 31px 0;
+    position: relative;
+    left: 36px;
   }
   .fonctionmenu {
     display: flex;
@@ -656,7 +674,7 @@
 
   .icon2 {
     position: absolute;
-    left: 77px;
+    left: 114px;
     color: grey;
     font-size: 19px;
     padding: 0 18px 0 18px;
@@ -665,6 +683,7 @@
     text-decoration: none;
     padding: 0px 54px 0px 54px;
     color: black;
+    font-size: 22px;
   }
 
   /* restaurent bloc*/
@@ -682,7 +701,7 @@
   .restaurantphotos {
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 99%;
     height: 253px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -716,14 +735,14 @@
   }
   .textrestaurant {
     display: flex;
-    align-items: flex-start;
     background: white;
-    padding: 24px 0px 9px 16px;
+    padding: 25px 0px 5px 10px;
     border-radius: 0 0 20px 20px;
-    width: 99%;
-    height: 92px;
+    width: 98%;
+    height: 48px;
     color: black;
-    font-size: 23px;
+    font-size: 15px;
+    flex-direction: column;
   }
   .textrestaurant2 {
     display: flex;
