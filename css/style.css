@@ -95,7 +95,7 @@
     margin: 0px;
     padding: 10px 0px 10px 0px;
 
-    font-size: 30px;
+    font-size: 35px;
     font-family: "Shrikhand", cursive;
   }
   #search {
@@ -104,7 +104,7 @@
   }
   .blocrecherhce {
     display: flex;
-    margin-left: 63px;
+    margin-left: 104px;
   }
   .rechercher {
     background: #f3f3f3;
@@ -322,7 +322,7 @@
   .nouveaurestaurant {
     font-family: "Roboto", sans-serif;
     position: relative;
-    left: 234px;
+    left: 214px;
     top: -244px;
     font-size: 13px;
     width: 14%;
