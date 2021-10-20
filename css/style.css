@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   /* chargement*/
   /* création du loader*/
   .loader {
@@ -938,7 +938,7 @@
     margin: 0px;
     padding: 10px 0px 10px 0px;
 
-    font-size: 30px;
+    font-size: 55px;
     font-family: "Shrikhand", cursive;
   }
   #search {
@@ -969,7 +969,8 @@
     flex-direction: column;
     text-align: center;
     background: #fafafa;
-    font-size: 43px;
+    font-size: 30px;
+    margin-top: 23px;
   }
   .titre {
     display: flex;
@@ -1027,11 +1028,9 @@
   }
   .iconfonction {
     border-radius: 17px;
-
     display: flex;
     width: 102%;
     border: transparent;
-
     box-shadow: 0.25rem 1.25rem 3.5rem rgb(0 0 0 / 24%);
     justify-content: space-between;
   }
