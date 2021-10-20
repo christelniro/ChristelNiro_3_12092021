@@ -88,7 +88,7 @@
     background: #99e2d0;
     position: relative;
     top: 0;
-    left: 27%;
+    left: 30%;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
     display: flex;
@@ -258,13 +258,14 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /*header*/
-  .lapalettedugout {
+  .ledelicedessens {
     border-radius: 50px 50px 0 0;
     position: relative;
     background: #f3f3f3;
     margin-top: -55px;
     padding: 0 10px 0 14px;
   }
+
   .logos {
     margin: 0px;
     padding: 0px 281px 0px 286px;

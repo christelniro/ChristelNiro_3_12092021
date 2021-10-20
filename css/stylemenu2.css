@@ -260,11 +260,11 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   /*header*/
-  .lapalettedugout {
+  .lanoteenchantee {
     border-radius: 50px 50px 0 0;
     position: relative;
     background: #f3f3f3;
-    margin-top: -55px;
+    margin-top: -84px;
     padding: 0 10px 0 14px;
   }
   .logos {
@@ -395,7 +395,7 @@
   }
 
   .plat3:hover > .validation {
-    width: 41%;
+    width: 22%;
   }
   .plat3:hover > .sommeplat {
     width: 75%;

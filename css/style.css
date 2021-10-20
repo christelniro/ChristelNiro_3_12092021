@@ -536,6 +536,10 @@
     align-items: center;
     flex-direction: column;
   }
+  #localisation {
+    position: relative;
+    left: -19px;
+  }
   .logos {
     margin: 0px;
     padding: 10px 0px 10px 0px;
@@ -551,7 +555,7 @@
   .blocrecherhce {
     display: flex;
     font-size: 35px;
-    margin-left: 151px;
+    margin-left: 114px;
   }
   .rechercher {
     background: #f3f3f3;
