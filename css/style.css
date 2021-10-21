@@ -657,12 +657,12 @@
   .titref {
     padding: 56px 0 31px 21px;
     position: relative;
-    left: -29px;
+    left: -64px;
   }
   .grostitre {
     padding: 48px 31px 31px 23px;
     position: relative;
-    left: 36px;
+    left: -3px;
   }
   .fonctionmenu {
     display: flex;
