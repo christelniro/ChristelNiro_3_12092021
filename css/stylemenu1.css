@@ -350,8 +350,9 @@
   h3 {
     font-family: "Shrikhand", cursive;
     font-family: "Shrikhand", cursive;
+    font-size: 23px;
   }
-  /* transition */
+  /* transition menu*/
   .plat3 {
     -webkit-animation: translation_opacite 2s linear both;
     animation: transition 2s linear both;
@@ -393,7 +394,7 @@
   }
 
   .plat3:hover > .validation {
-    width: 18%;
+    width: 40%;
   }
   .plat3:hover > .sommeplat {
     width: 75%;

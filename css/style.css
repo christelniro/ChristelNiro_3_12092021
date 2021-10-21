@@ -555,7 +555,7 @@
   .blocrecherhce {
     display: flex;
     font-size: 35px;
-    margin-left: 114px;
+    margin-left: 138px;
   }
   .rechercher {
     background: #f3f3f3;
@@ -655,12 +655,12 @@
     color: #9356dc;
   }
   .titref {
-    padding: 56px 0 31px 0;
+    padding: 56px 0 31px 21px;
     position: relative;
     left: -29px;
   }
   .grostitre {
-    padding: 48px 31px 31px 38px;
+    padding: 48px 31px 31px 23px;
     position: relative;
     left: 36px;
   }
