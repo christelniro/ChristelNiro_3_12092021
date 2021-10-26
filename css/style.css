@@ -292,34 +292,38 @@
   }
   .textrestaurant {
     display: flex;
+    padding: 0 9px 23px;
+    font-size: 19px;
     background: white;
-    padding: 25px 0px 5px 10px;
     border-radius: 0 0 20px 20px;
-    width: 98%;
-    height: 48px;
+
+    height: 60px;
     color: black;
-    font-size: 15px;
     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
   }
   .textrestaurant2 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
     background: white;
     border-radius: 0 0 20px 20px;
-    width: 102%;
-    margin-top: 0px;
-    padding: 0px;
+    align-items: center;
+    margin-top: 4px;
+    padding: 0 0 0 17px;
+    height: 84px;
+    justify-content: space-between;
+    flex-wrap: wrap;
   }
   .textrestaurant1 {
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    align-items: center;
     background-color: white;
     border-radius: 0 0 20px 20px;
-    width: 102%;
-    margin-top: 0px;
-    padding: 0px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 12px;
   }
   .com {
     font-weight: lighter;
@@ -330,31 +334,45 @@
   }
   .iconcoeur {
     position: absolute;
-    left: 315px;
+    left: 681px;
     font-size: 33px;
   }
-  .sstitre {
-    color: #000000;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-  }
 
-  .nouveaurestaurant {
-    font-family: "Roboto", sans-serif;
+  .sstitre {
+    margin: 0px;
+  }
+  .sstitre1 {
     position: relative;
-    left: 214px;
-    top: -244px;
-    font-size: 13px;
-    width: 14%;
+    bottom: 232px;
+    left: 23px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
     border-radius: 5px;
     background-color: #99e2d0;
     color: green;
     border: 1px solid;
-    padding: 9px 22px 9px 22px;
+  }
+
+  .sstitre2 {
+    position: relative;
+    bottom: -60px;
+    left: -13px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #99e2d0;
+    color: green;
+    width: 80px;
+    border: 1px solid;
+    margin: 0px;
+  }
+  .sstitre {
+    color: black;
+    font-weight: 100;
   }
   .iconcoeur2 {
     position: absolute;
-    left: 315px;
+    left: 681px;
     font-size: 33px;
   }
   /*remplissage de l'icon coeur*/
@@ -374,14 +392,12 @@
 
   .fa-heart__content_empty {
     color: #000000;
-    position: relative;
-    right: 42px;
   }
-
+  .fa-heart__content_empty1 {
+    color: #000000;
+  }
   .fa-heart__box {
     position: relative;
-    left: 275px;
-    top: -43px;
   }
 
   .fa-heart__box:hover > .fa-heart_full {
@@ -390,7 +406,12 @@
     /* permet de superposer le coeur */
     z-index: 2;
   }
-
+  .fa-heart__box:hover > .fa-heart_full1 {
+    opacity: 1;
+    transform: scale(1);
+    /* permet de superposer le coeur */
+    z-index: 2;
+  }
   .fa-heart_full {
     background: linear-gradient(63deg, #ff79da 0%, #9356dc 100%);
     -webkit-text-fill-color: transparent;
@@ -398,8 +419,27 @@
     opacity: 0;
     transition: all 1000ms;
     transform: scale(0);
+    position: absolute;
+  }
+  .fa-heart_full1 {
+    background: linear-gradient(63deg, #ff79da 0%, #9356dc 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    opacity: 0;
+    transition: all 1000ms;
+    transform: scale(0);
+    position: absolute;
+  }
+  .nouveaurestaurant {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .iconcoeur2 {
     position: relative;
-    left: -7px;
+    font-size: 28px;
+    left: 56px;
   }
   /* footer*/
   .footeraccueil {
@@ -816,6 +856,7 @@
   }
   .sstitre {
     color: black;
+    font-weight: 100;
   }
   .iconcoeur2 {
     position: absolute;
@@ -1387,6 +1428,7 @@
   }
   .sstitre {
     color: black;
+    font-weight: 100;
   }
   .lienf {
     display: flex;
