@@ -171,7 +171,6 @@
     bottom: 24px;
     position: relative;
     align-content: stretch;
-    font-family: "Roboto", sans-serif;
   }
   .plat3 {
     border-radius: 17px;
@@ -413,21 +412,19 @@
   }
   /*transition prix*/
   .groupetitre {
-    width: 70%;
-    padding: 17px 15px 0px 15px;
+    width: 100%;
+    padding: 18px 30px 18px 30px;
   }
-  .plat3:hover > .groupetitre {
-    max-width: 150px;
-  }
-  .titreplat {
-    margin: 0px;
+  .titreplat,
+  .plat3 {
     text-overflow: ellipsis;
     white-space: nowrap;
+    text-overflow: ellipsis;
     overflow: hidden;
   }
 
   .plat3:hover > .validation {
-    width: 40%;
+    width: 200px;
   }
   .plat3:hover > .sommeplat {
     width: 75%;
@@ -447,7 +444,6 @@
     position: relative;
     /* align-content: stretch; */
     justify-content: space-evenly;
-    font-family: "Roboto", sans-serif;
   }
   .validation {
     transition: width 1s, transform 2s;
@@ -458,7 +454,6 @@
     background: #99e2d0;
     position: relative;
     top: 0;
-    left: 30%;
     border-radius: 0 17px 17px 0;
     font-size: 20px;
     display: flex;
@@ -717,7 +712,6 @@
     position: relative;
     top: -17px;
     justify-content: flex-end;
-    font-family: "Roboto", sans-serif;
   }
   .plat3 {
     border-radius: 17px;
@@ -785,6 +779,7 @@
     flex-direction: column;
     background: rgb(51, 51, 51);
     width: 100%;
+    font-family: "Roboto", sans-serif;
   }
   .footertitre {
     padding: 22px 0px 4px 27px;
@@ -796,16 +791,13 @@
     color: white;
     padding: 0 11px 0 28px;
   }
-  .lienmail {
-    padding: 0 0 11px 0;
-  }
-  .lien {
-    font-family: "Roboto", sans-serif;
-  }
   .lienmail a {
     text-decoration: none;
     color: white;
-    font-family: "Roboto", sans-serif;
+  }
+  .lienmail {
+    padding: 0 0 11px 0;
+    text-decoration: none;
   }
   .icon {
     padding: 0 12px 0 0;
@@ -815,7 +807,6 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
