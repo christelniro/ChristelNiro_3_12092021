@@ -258,7 +258,7 @@
   .restaurantphotos {
     background-size: cover;
     background-position: center;
-    width: 100%;
+    width: 98%;
     height: 176px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -309,7 +309,7 @@
     background: white;
     border-radius: 0 0 20px 20px;
     align-items: center;
-    margin-top: 4px;
+
     padding: 0 0 0 17px;
     height: 84px;
     justify-content: space-between;
@@ -797,7 +797,7 @@
     background: white;
     border-radius: 0 0 20px 20px;
     align-items: center;
-    margin-top: 4px;
+
     padding: 0 0 0 17px;
     height: 84px;
     justify-content: space-between;
