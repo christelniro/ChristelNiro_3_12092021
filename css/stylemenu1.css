@@ -3,6 +3,22 @@
     margin: 0px;
     padding: 0px;
   }
+  h3 {
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    font-family: "Shrikhand", cursive;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+  }
+  p {
+    font-weight: 100;
+  }
+  .font {
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
+  }
   /*header*/
   .restaurent {
     border-radius: 50px 50px 0 0;
@@ -18,9 +34,7 @@
     font-size: 30px;
     font-family: "Shrikhand", cursive;
   }
-  .font {
-    font-weight: lighter;
-  }
+
   .imageheader {
     max-width: 100%;
     max-height: 32rem;
@@ -132,7 +146,7 @@
     text-transform: uppercase;
     position: relative;
     padding-bottom: 0.5rem;
-    font-weight: 400;
+    font-weight: 100;
   }
   .menu::after {
     content: "";
@@ -157,6 +171,7 @@
     bottom: 24px;
     position: relative;
     align-content: stretch;
+    font-family: "Roboto", sans-serif;
   }
   .plat3 {
     border-radius: 17px;
@@ -172,11 +187,7 @@
   .boxplat {
     align-items: center;
   }
-  h3 {
-    font-size: 23px;
-    font-family: "Shrikhand", cursive;
-    font-family: "Shrikhand", cursive;
-  }
+
   /*remplissage de l'icon coeur*/
   .fa-heart {
     cursor: pointer;
@@ -239,9 +250,13 @@
   .lienmail {
     padding: 0 0 11px 0;
   }
+  .lien {
+    font-family: "Roboto", sans-serif;
+  }
   .lienmail a {
     text-decoration: none;
     color: white;
+    font-family: "Roboto", sans-serif;
   }
   .icon {
     padding: 0 12px 0 0;
@@ -251,6 +266,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
@@ -261,6 +277,22 @@
   body {
     margin: 0px;
     padding: 0px;
+  }
+  h3 {
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    font-family: "Shrikhand", cursive;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+  }
+  p {
+    font-weight: 100;
+  }
+  .font {
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
   }
   /*header*/
   .restaurent {
@@ -352,11 +384,7 @@
     align-items: center;
     display: block;
   }
-  h3 {
-    font-family: "Shrikhand", cursive;
-    font-family: "Shrikhand", cursive;
-    font-size: 23px;
-  }
+
   /* transition menu*/
   .plat3 {
     -webkit-animation: translation_opacite 2s linear both;
@@ -419,6 +447,7 @@
     position: relative;
     /* align-content: stretch; */
     justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
   }
   .validation {
     transition: width 1s, transform 2s;
@@ -501,6 +530,14 @@
   .lienmail {
     padding: 0 0 11px 0;
   }
+  .lien {
+    font-family: "Roboto", sans-serif;
+  }
+  .lienmail a {
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+  }
   .icon {
     padding: 0 12px 0 0;
     font-size: small;
@@ -509,10 +546,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-  }
-  .lienmail a {
-    text-decoration: none;
-    color: white;
+    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
@@ -522,6 +556,22 @@
   body {
     margin: 0px;
     padding: 0px;
+  }
+  h3 {
+    font-family: "Roboto", sans-serif;
+  }
+  h2 {
+    font-family: "Shrikhand", cursive;
+  }
+  h4 {
+    font-family: "Roboto", sans-serif;
+  }
+  p {
+    font-weight: 100;
+  }
+  .font {
+    font-weight: lighter;
+    font-family: "Roboto", sans-serif;
   }
   /*header*/
   .restaurent {
@@ -533,7 +583,7 @@
   }
   .logos {
     margin: 0px;
-    padding: 0px 488px 0px 531px;
+    padding: 0px 0px 0px 400px;
     font-size: 30px;
     font-family: "Shrikhand", cursive;
   }
@@ -667,6 +717,7 @@
     position: relative;
     top: -17px;
     justify-content: flex-end;
+    font-family: "Roboto", sans-serif;
   }
   .plat3 {
     border-radius: 17px;
@@ -685,10 +736,7 @@
   .boxplat {
     align-items: center;
   }
-  h3 {
-    font-family: "Shrikhand", cursive;
-    font-family: "Shrikhand", cursive;
-  }
+
   /*remplissage de l'icon coeur*/
   .fa-heart {
     cursor: pointer;
@@ -748,13 +796,16 @@
     color: white;
     padding: 0 11px 0 28px;
   }
+  .lienmail {
+    padding: 0 0 11px 0;
+  }
+  .lien {
+    font-family: "Roboto", sans-serif;
+  }
   .lienmail a {
     text-decoration: none;
     color: white;
-  }
-  .lienmail {
-    padding: 0 0 11px 0;
-    text-decoration: none;
+    font-family: "Roboto", sans-serif;
   }
   .icon {
     padding: 0 12px 0 0;
@@ -764,6 +815,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
