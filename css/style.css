@@ -450,7 +450,7 @@
     width: 100%;
   }
   .footertitre {
-    padding: 22px 0px 20px 27px;
+    padding: 22px 0px 4px 27px;
     color: white;
     width: 57%;
     font-family: "Shrikhand", cursive;
@@ -460,11 +460,15 @@
     padding: 0 11px 0 28px;
   }
   .lienmail {
-    padding: 10px 0 10px;
+    padding: 0 0 11px 0;
+  }
+  .lien {
+    font-family: "Roboto", sans-serif;
   }
   .lienmail a {
     text-decoration: none;
     color: white;
+    font-family: "Roboto", sans-serif;
   }
   .icon {
     padding: 0 12px 0 0;
@@ -474,7 +478,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 0 10px;
+    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
@@ -952,9 +956,13 @@
   .lienmail {
     padding: 0 0 11px 0;
   }
+  .lien {
+    font-family: "Roboto", sans-serif;
+  }
   .lienmail a {
     text-decoration: none;
     color: white;
+    font-family: "Roboto", sans-serif;
   }
   .icon {
     padding: 0 12px 0 0;
@@ -964,6 +972,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
@@ -981,7 +990,7 @@
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    -webkit-animation: spin 4s linear forwards;
+    -webkit-animation: spin 10s linear forwards;
   }
   /* placement au milieu de la page */
   .loader {
@@ -1004,7 +1013,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    -webkit-animation: opacite 3s forwards;
+    -webkit-animation: opacite 10s forwards;
   }
 
   @-webkit-keyframes opacite {
@@ -1264,6 +1273,7 @@
   }
   .sstitre {
     margin: 0px;
+    color: black;
   }
   .sstitre1 {
     position: relative;
@@ -1309,7 +1319,7 @@
     background: white;
     border-radius: 0 0 20px 20px;
     align-items: center;
-    margin-top: 4px;
+
     padding: 0 8px 0 17px;
     height: 84px;
     justify-content: space-between;
@@ -1435,22 +1445,23 @@
   .lienmail {
     padding: 0 0 11px 0;
   }
+  .lien {
+    font-family: "Roboto", sans-serif;
+  }
   .lienmail a {
     text-decoration: none;
     color: white;
+    font-family: "Roboto", sans-serif;
   }
   .icon {
     padding: 0 12px 0 0;
     font-size: small;
   }
-  .sstitre {
-    color: black;
-    font-weight: 100;
-  }
   .lienf {
     display: flex;
     flex-direction: row;
     align-items: center;
+    font-family: "Roboto", sans-serif;
   }
   .footer_menu {
     margin: 0px;
