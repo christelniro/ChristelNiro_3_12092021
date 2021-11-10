@@ -1171,7 +1171,10 @@
     align-content: center;
     flex-wrap: wrap;
   }
-
+  .fonctionmenu {
+    background: #f6f6f6;
+    margin-left: 34px;
+  }
   .numerofonction {
     display: flex;
     color: white;
