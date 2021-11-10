@@ -671,8 +671,8 @@
   }
   .numerofonction {
     display: flex;
-    position: absolute;
-    left: 48px;
+    position: relative;
+    left: -96px;
     color: white;
     padding: 5px;
     background: #9356dc;
