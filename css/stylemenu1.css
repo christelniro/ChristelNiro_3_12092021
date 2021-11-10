@@ -174,6 +174,7 @@
     bottom: 24px;
     position: relative;
     align-content: stretch;
+    font-family: "Roboto", sans-serif;
   }
   .plat3 {
     border-radius: 17px;
@@ -447,6 +448,7 @@
     position: relative;
     /* align-content: stretch; */
     justify-content: space-evenly;
+    font-family: "Roboto", sans-serif;
   }
   .validation {
     transition: width 1s, transform 2s;
@@ -715,6 +717,7 @@
     position: relative;
     top: -17px;
     justify-content: flex-end;
+    font-family: "Roboto", sans-serif;
   }
   .plat3 {
     border-radius: 17px;

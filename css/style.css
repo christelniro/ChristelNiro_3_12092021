@@ -259,7 +259,7 @@
   .restaurantphotos {
     background-size: cover;
     background-position: center;
-    width: 98%;
+
     height: 176px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -618,6 +618,7 @@
   }
   .titre2 {
     padding: 15px 110px;
+    font-family: "Roboto", sans-serif;
   }
   .titre {
     font-size: 25px;
@@ -654,6 +655,7 @@
     cursor: pointer;
     color: white;
     margin-top: 23px;
+    font-family: "Roboto", sans-serif;
   }
   .btn:hover {
     filter: brightness(1.15);
@@ -735,6 +737,7 @@
     padding: 0px 54px 0px 54px;
     color: black;
     font-size: 22px;
+    font-family: "Roboto", sans-serif;
   }
 
   /* restaurent bloc*/
@@ -752,7 +755,7 @@
   .restaurantphotos {
     background-size: cover;
     background-position: center;
-    width: 99%;
+
     height: 253px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
@@ -863,6 +866,7 @@
   .sstitre {
     color: black;
     font-weight: 100;
+    font-family: "Roboto", sans-serif;
   }
   .iconcoeur2 {
     position: absolute;
