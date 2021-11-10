@@ -159,6 +159,7 @@
     cursor: pointer;
     color: white;
     margin-top: 23px;
+    font-family: "Roboto", sans-serif;
   }
   .btn:hover {
     filter: brightness(1.15);
@@ -263,7 +264,7 @@
     height: 176px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    border-style: solid;
+
     border-color: transparent;
   }
   .fonctionmenu a {
@@ -759,7 +760,7 @@
     height: 253px;
     border-radius: 20px 20px 0 0;
     object-fit: cover;
-    border-style: solid;
+
     border-color: transparent;
   }
   .fonctionmenu a {
