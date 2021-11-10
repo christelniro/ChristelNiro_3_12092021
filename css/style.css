@@ -174,9 +174,8 @@
     flex-wrap: wrap;
   }
   .numerofonction {
-    display: flex;
-    position: absolute;
-    left: 20px;
+    position: relative;
+    left: -55px;
     color: white;
     padding: 5px;
     background: #9356dc;
@@ -226,11 +225,8 @@
   }
 
   .icon2 {
-    position: absolute;
-    left: 48px;
     color: grey;
     font-size: 19px;
-    padding: 0 18px 0 18px;
   }
   .texticon {
     text-decoration: none;
