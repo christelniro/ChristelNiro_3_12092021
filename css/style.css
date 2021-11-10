@@ -197,7 +197,10 @@
     align-items: center;
     box-shadow: 0.25rem 0.25rem 0.5rem rgb(0 0 0 / 13%);
   }
-  .icon2:hover {
+  .fonctionmenu:hover {
+    background: #e4d5f6;
+  }
+  .fonctionmenu:hover .icon2 {
     color: #9356dc;
   }
   .titref {
@@ -212,9 +215,7 @@
     background: #f6f6f6;
     border-radius: 16px;
   }
-  .fonctionmenu:hover {
-    background: #e4d5f6;
-  }
+
   .blocfonctionnement {
     display: flex;
     flex-direction: column;
@@ -687,10 +688,11 @@
     align-items: center;
     margin-bottom: 15px;
   }
+
   .fonctionmenu:hover {
     background: #e4d5f6;
   }
-  .icon2:hover {
+  .fonctionmenu:hover .icon2 {
     color: #9356dc;
   }
   .titref {
@@ -1149,10 +1151,7 @@
     align-content: center;
     flex-wrap: wrap;
   }
-  .fonctionmenu {
-    background: #f6f6f6;
-    margin-left: 34px;
-  }
+
   .numerofonction {
     display: flex;
     color: white;
@@ -1174,18 +1173,23 @@
     box-shadow: 0.25rem 1.25rem 3.5rem rgb(0 0 0 / 24%);
     justify-content: space-between;
   }
-  .icon2:hover {
-    color: #9356dc;
-  }
   .fonctionmenu:hover {
-    background-color: #e4d5f6;
-    color: #000;
-    border-radius: 15px;
-    box-shadow: 3px 3px 20px #c6bfbf;
+    background: #e4d5f6;
+    border-radius: 11 px;
+  }
+  .fonctionmenu:hover .icon2 {
+    color: #9356dc;
   }
   .titref {
     padding: 56px 0 31px 90px;
     position: relative;
+  }
+  .fonctionmenu {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    background: #f6f6f6;
+    border-radius: 11px;
   }
   .grostitre {
     padding: 18px 0px 0 117px;
