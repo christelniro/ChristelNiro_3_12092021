@@ -353,6 +353,7 @@
     background-color: #99e2d0;
     color: green;
     border: 1px solid;
+    font-family: "Roboto", sans-serif;
   }
 
   .sstitre2 {
@@ -367,6 +368,7 @@
     width: 80px;
     border: 1px solid;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
   }
   .sstitre {
     color: black;
@@ -863,6 +865,7 @@
     width: 80px;
     border: 1px solid;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
   }
   .sstitre {
     color: black;
@@ -1290,6 +1293,7 @@
     background-color: #99e2d0;
     color: green;
     border: 1px solid;
+    font-family: "Roboto", sans-serif;
   }
 
   .sstitre2 {
@@ -1304,6 +1308,7 @@
     width: 80px;
     border: 1px solid;
     margin: 0px;
+    font-family: "Roboto", sans-serif;
   }
   .textrestaurant {
     display: flex;
